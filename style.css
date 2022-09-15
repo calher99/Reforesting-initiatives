@@ -5,11 +5,11 @@ body {
     display: flex;
     flex-direction: column;
 }
-.header{
+.header {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    flex: 1 1 0;
+    flex: 1;
     max-height: 50px;
     
 }
@@ -28,8 +28,43 @@ ul {
     justify-content: center;
     gap: 10px;
     font-size: 15px;
-    color: #E5E7EB;
 }
 a {
     text-decoration: none;
+    color: #E5E7EB;
+}
+
+.container1{
+    display: flex;
+    background-color: #1F2937;
+}
+
+.container1_1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+ 
+}
+.container1_1-header{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.container1_1-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.top-image{
+    flex:1;
+}
+button{
+    background-color: #3882F6;
+    max-width: 90px;
+    align-self: center;
+}
+.top-image img{
+    height: 200px;
+    width: 300px;
 }
