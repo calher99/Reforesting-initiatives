@@ -15,7 +15,7 @@ body {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    max-height: 50px;
+    padding: 8px;
     
 }
 .header-left{
@@ -101,4 +101,11 @@ button{
     padding: 1rem;
     font-weight: bolder;
     font-size: 20px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
