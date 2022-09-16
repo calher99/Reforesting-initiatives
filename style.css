@@ -108,4 +108,13 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px 300px;
+}
+.author{
+    font-weight: bold;
+}
+.quote{
+    font-style: italic;
+    font-size: 25px;
 }
